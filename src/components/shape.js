@@ -2,7 +2,7 @@
 
 // export class using module.exports
 
-class shape {
+class Shape {
     constructor() {
         this.color = "red";
 
@@ -15,7 +15,7 @@ class shape {
     //     return 0;
     // }
 }
-module.exports = shape;
+module.exports = Shape;
 
 // class Circle extends shape {
 //     constructor(color) {

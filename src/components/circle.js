@@ -6,7 +6,7 @@
 // export class using module.exports
 // import shape from './shape' ;
 const shape = require('./shape');
-class Circle extends shape {
+class Circle extends Shape {
     constructor() {
         //first line of subclass constructer should call superclass constructer with appropriate parameters;
          super();
