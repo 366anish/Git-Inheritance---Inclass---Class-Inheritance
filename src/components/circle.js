@@ -6,14 +6,13 @@
 // export class using module.exports
 // import shape from './shape' ;
 const shape = require('./shape');
-export default class Circle extends shape {
-    constructor(color) {
+class Circle extends shape {
+    constructor() {
         //first line of subclass constructer should call superclass constructer with appropriate parameters;
-         super(color);
+         super();
     }
-    calculateArea() {
         console.log("Area of circle with color: " + this.color);
         return 3.14*5*5;
     }
 }
-module.exports = circle;
+module.exports = Circle;

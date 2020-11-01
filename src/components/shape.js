@@ -3,17 +3,17 @@
 // export class using module.exports
 
 class shape {
-    constructor(color) {
-        this.color = color;
+    constructor() {
+        this.color = "red";
 
     }
-    drawshape() {
-        console.log("Drawing a Shape");
-    }
-    calculateArea() {
-        console.log("Do't know area of Unknown Shape");
-        return 0;
-    }
+    // drawshape() {
+    //     console.log("Drawing a Shape");
+    // }
+    // calculateArea() {
+    //     console.log("Do't know area of Unknown Shape");
+    //     return 0;
+    // }
 }
 module.exports = shape;
 
