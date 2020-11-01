@@ -11,8 +11,7 @@ class Shape {
         console.log("Drawing a Shape");
      }
      calculateArea() {
-        console.log("Area of circle with color: " + this.color);
-        return 3.14*5*5;
+        console.log("Area of shape with color: " + this.color);
      }
 }
 module.exports = Shape;
