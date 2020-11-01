@@ -11,12 +11,11 @@ class Circle extends Shape {
         //first line of subclass constructer should call superclass constructer with appropriate parameters;
          super();
     }
-        console.log("Area of circle with color: " + this.color);
-        return 3.14*5*5;
+   
     }
     calculateArea() {
-        console.log(" know area of Unknown Shape");
-        return 0;
+        console.log("Area of circle with color: " + this.color);
+          return 3.14*5*5;
      }
 }
 module.exports = Circle;
