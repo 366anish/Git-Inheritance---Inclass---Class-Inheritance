@@ -14,5 +14,9 @@ class Circle extends Shape {
         console.log("Area of circle with color: " + this.color);
         return 3.14*5*5;
     }
+    calculateArea() {
+        console.log(" know area of Unknown Shape");
+        return 0;
+     }
 }
 module.exports = Circle;

@@ -7,13 +7,13 @@ class Shape {
         this.color = "red";
 
     }
-    // drawshape() {
-    //     console.log("Drawing a Shape");
-    // }
-    // calculateArea() {
-    //     console.log("Do't know area of Unknown Shape");
-    //     return 0;
-    // }
+     drawShape() {
+        console.log("Drawing a Shape");
+     }
+     calculateArea() {
+        console.log("Do't know area of Unknown Shape");
+        return 0;
+     }
 }
 module.exports = Shape;
 
